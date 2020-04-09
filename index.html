@@ -1,603 +1,552 @@
 <!DOCTYPE html>
-<!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Fri Sep 06 2019 23:38:33 GMT+0000 (UTC)  -->
-<html data-wf-page="5ba15f4ffec058bb3ab4d9b5" data-wf-site="5ba15f4ffec0585eabb4d9b3">
+<html>
+
 <head>
-  <meta charset="utf-8">
-  <title>Fabio Daiber&#x27;s Personal Website</title>
-  <meta content="width=device-width, initial-scale=1" name="viewport">
-  <meta content="Webflow" name="generator">
-  <link href="css/normalize.css" rel="stylesheet" type="text/css">
-  <link href="css/webflow.css" rel="stylesheet" type="text/css">
-  <link href="css/fdaiber.webflow.css" rel="stylesheet" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
-  <script type="text/javascript">WebFont.load({  google: {    families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic","Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic:latin-ext,greek-ext,greek,latin,vietnamese,cyrillic,cyrillic-ext","Mr Dafoe:regular:latin-ext,latin"]  }});</script>
-  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
-  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
-  <link href="icons/favicon.png" rel="shortcut icon" type="image/x-icon">
-  <link href="icons/webclip.png" rel="apple-touch-icon">
-  <style>
-.w-input::-webkit-input-placeholder { /* WebKit browsers */
-    color:    #ffffff;
-  	opacity: .5;
-}
-.w-input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color:    #ffffff;
-    opacity: .5;
-}
-.w-input::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color:    #ffffff;
-    opacity: .5;
-}
-.w-input:-ms-input-placeholder { /* Internet Explorer 10+ */
-    color:    #ffffff;
-  	opacity: .5;
-}
-</style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Fabio Daiber</title>
+    <meta name="twitter:card" content="summary">
+    <meta property="og:image" content="assets/img/start_small.jpg?h=a6bedd1c2ce4415dec05b94ef8b883a3">
+    <meta name="description" content="Hi I'm Fabio. I'm currently finishing up my MBA at Cornell Tech in New York. Learn more about me.">
+    <meta property="og:type" content="website">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/Logo16.png?h=a1896b2b9f1add87055352736c98f5f3">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/Logo32.png?h=49be5c98eb2f4df0b29823e372af99e4">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=9d7aff751b126a187bbedc6f2fdfb946">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/typicons/2.0.9/typicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css?h=1be42c161471322e2db4aa24744e7d50">
 </head>
-<body class="body">
-  <div data-collapse="all" data-animation="default" data-duration="400" class="navbar w-nav">
-    <div data-ix="load-1" class="menu-button w-nav-button">
-      <div data-w-id="e2b4b3a4-aca8-96bd-f7bd-803c15d6beaf" style="background-color:rgb(80,155,194)" class="menu-icon _1 w-icon-nav-menu"></div>
-      <nav role="navigation" class="nav-menu-small w-nav-menu"><a data-ix="nav-link-trigger" href="#top" class="nav-link w-nav-link">Home</a><a data-ix="nav-link-trigger-3" href="#professional" class="nav-link w-nav-link">Profile</a><a data-ix="nav-link-trigger-4" href="#digiportfolio" class="nav-link w-nav-link">projects</a><a data-ix="nav-link-trigger-4" href="#about" class="nav-link w-nav-link">About me</a><a data-ix="nav-link-trigger-4" href="#contact" class="nav-link w-nav-link">Contact</a></nav>
-    </div>
-  </div>
-  <div id="top" class="home-section">
-    <div data-w-id="ce0c4abb-b57e-774d-b0fb-5612b934cb9e" style="opacity:0" class="picture" data-ix="load-2"><img src="images/Home_new.png" srcset="images/Home_new-p-500.png 500w, images/Home_new-p-800.png 800w, images/Home_new.png 1000w" sizes="(max-width: 1000px) 100vw, 1000px" id="w-node-7dabfa0a9913-3ab4d9b5" alt="" class="image-46"></div>
-    <div class="container on-home">
-      <div class="intro">
-        <div data-ix="load-5" class="home-name">Fabio Daiber</div>
-        <div class="home-subtext" data-ix="load-6">Cornell Tech MBA Candidate</div>
-        <div class="home-subtext" data-ix="load-6">ASpiring Intrapreneur</div>
-      </div>
-    </div><a href="#professional" data-ix="load-7" class="arrow-top w-inline-block"></a></div>
-  <section id="professional" class="portfolio-section">
-    <div class="contact-container">
-      <h3 data-ix="on-scroll-1" class="heading-3">Profile</h3>
-      <div class="w-container">
-        <h4 class="heading-4 long" data-ix="on-scroll-1">education</h4>
-        <div class="w-layout-grid grid-2"><img src="images/outlined-white.svg" width="200" id="w-node-7bfd626bebc2-3ab4d9b5" alt="" class="logo-edu" data-ix="on-scroll-2">
-          <div data-ix="on-scroll-2"><strong>Johnson Cornell Tech MBA</strong><br>M.B.A Class of 2020<br>New York, NY</div><img src="images/NC_State.gif" width="180" alt="" class="logo-edu ncstate" data-ix="on-scroll-2">
-          <div data-ix="on-scroll-2"><strong>North Carolina State University</strong><br>B.S. in Business Administration: Finance<br>Dual Degree with ESB Business School<br>Raleigh, NC</div><img src="images/esb_short.gif" width="200" alt="" class="logo-edu" data-ix="on-scroll-2">
-          <div data-ix="on-scroll-2"><strong>ESB Business School - Reutlingen University</strong><br>B.S. in International Management German-American<br>Reutlingen, Germany</div>
+
+<body>
+    <section class="text-center d-flex d-xl-flex align-items-center align-content-center justify-content-xl-center align-items-xl-center" style="min-height: 100vh;background-image: linear-gradient(120deg,rgba(127, 112, 245, 0.9), rgba(14, 160, 255, 0.9)), url(&quot;assets/img/Tech-campus.jpg?h=0c9a19a4c55153694f262564d0fd6534&quot;);background-size: cover;background-repeat: no-repeat;opacity: 1;">
+        <!-- Start: Header Gradient -->
+        <nav class="navbar navbar-dark navbar-expand-lg fixed-top portfolio-navbar gradient" data-aos="fade-down" data-aos-duration="2500" data-aos-offset="100px" data-aos-delay="1000" data-aos-once="true">
+            <div class="container-fluid"><img class="img-fluid" src="assets/img/Logo_fin.svg?h=63ddba9250d99b2783a2233d8eb96a89" style="margin-bottom: 5px;margin-top: 5px;max-height: 50px;max-width: 10%;"><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div
+                    class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item item" role="presentation"><a class="nav-link active" href="#">Home</a></li>
+                        <li class="nav-item item" role="presentation"><a class="nav-link active" href="#about-me">About Me</a></li>
+                        <li class="nav-item item" role="presentation"><a class="nav-link active" href="#experience">Experience</a></li>
+                        <li class="nav-item item" role="presentation"><a class="nav-link active" href="#projects">Projects</a></li>
+                        <li class="nav-item item" role="presentation"><a class="nav-link active nopad" href="#personal">Personal</a></li>
+                    </ul>
+            </div>
+            </div>
+        </nav>
+        <!-- End: Header Gradient -->
+        <div class="container align-content-center justify-content-xl-center align-items-xl-center">
+            <div><img class="img-fluid" data-aos="fade" data-aos-duration="1000" data-aos-offset="50px" data-aos-delay="250" data-aos-once="true" src="assets/img/start_small.jpg?h=a6bedd1c2ce4415dec05b94ef8b883a3" style="min-width: 200px;max-width: 20%;border: 5px solid #dee2e6;border-radius: 50%;"></div>
+            <div
+                class="justify-content-xl-center align-items-xl-center about-me" style="padding-top: 20px;">
+                <p data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50px" data-aos-delay="750" style="color: rgb(222,226,230);font-size: 42px;">Hi there, I'm Fabio</p>
         </div>
-      </div>
-      <div class="experience">
-        <h4 class="heading-4 long" data-ix="on-scroll-1">Consulting Experience</h4>
-      </div>
-      <div data-animation="slide" data-duration="500" data-infinite="1" class="logo-slider-wrapper w-slider" data-ix="on-scroll-2">
-        <div class="logo-slider-mask w-slider-mask">
-          <div class="logo-slide w-slide">
-            <div class="row-3 w-row">
-              <div class="w-col w-col-4">
-                <div class="logo-wrap">
-                  <h4 class="logos-head">DIGITAL <br>STRATEGY</h4>
-                  <div class="logo-description">Analyzed energy trends and recommended focus areas for new business opportunities</div>
-                  <div class="logo-subtext">Project engagement</div>
-                  <div class="logo-subtext">Energy &amp; Utility</div>
-                  <div class="logo-subtext">2016</div>
+        </div>
+    </section>
+    <main class="page lanidng-page">
+        <section id="about-me" class="portfolio-block block-intro" style="background-color: #dcd8d8;padding-bottom: 0px;padding-top: 0px;">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-2">
+                    <div class="col-md-6" data-aos="fade-right" data-aos-duration="500" data-aos-once="true"><img class="img-fluid" src="assets/img/aboutme.jpg?h=ea5974bc770cccae7092622af4ed6b70" width="80%" style="max-width: 400px;"></div>
+                    <div class="col-md-6 d-flex align-items-center align-items-lg-center align-items-xl-center" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
+                        <div>
+                            <h1 class="text-center float-none">About Me</h1>
+                            <p class="align-items-md-center" style="font-size: 20px;padding-top: 30px;">I'm currently finishing up my MBA at Cornell Tech in New York. Most recently, I was a Senior Consultant at Capgemini's Digital Banking and Payments team. I'm passionate about product innovation and helped clients bring new
+                                products to market.</p>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="w-col w-col-4">
-                <div class="logo-wrap">
-                  <h4 class="logos-head">COMMERCIAL BANKING<br>platform implementation</h4>
-                  <div class="logo-description">Translated design mock-ups into user stories</div>
-                  <div class="logo-subtext">Project engagement</div>
-                  <div class="logo-subtext">Banking</div>
-                  <div class="logo-subtext">2017</div>
+            </div>
+        </section>
+        <!-- Start: Special Skills Block -->
+        <section class="portfolio-block skills" style="border: none;padding-bottom: 0px;">
+            <div class="container" data-aos="fade-up" data-aos-duration="750" data-aos-once="true" style="padding-bottom: 100px;">
+                <!-- Start: portfolio heading -->
+                <div class="heading">
+                    <h1 data-aos="fade-up" data-aos-once="true">Special Skills</h1>
                 </div>
-              </div>
-              <div class="w-col w-col-4">
-                <div class="logo-wrap">
-                  <h4 class="logos-head">GLOBAL SAP<br>IMPLEMENTATION</h4>
-                  <div class="logo-description">Planned and estimated build phase for SAP Finance</div>
-                  <div class="logo-subtext">Project engagement</div>
-                  <div class="logo-subtext">Retail</div>
-                  <div class="logo-subtext">2017</div>
+                <!-- End: portfolio heading -->
+                <div class="row" data-aos="fade-up" data-aos-once="true">
+                    <div class="col-md-4">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-star-outline"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Product Innovation</h3>
+                                <p class="card-text">Using customer and market insights to develop new products. I helped various clients from retail to finance to conceptualize and bring to market new ideas based on market trends and user research.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-lightbulb-outline"></i></div>
+                            <div class="card-body">
+                                <h3 class="text-break card-title">Design Sprints</h3>
+                                <p class="card-text">Facilitate ideation and prototyping. I have led design thinking workshops and trainings for groups of 30+ people for client and internally for Capgemini. I've also gone through design sprints with my product teams at Cornell
+                                    Tech.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-gear-outline"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Project Management</h3>
+                                <p class="card-text">Keeping everything on track and everyone informed. I have led project streams from planning the next phase to product launched, managed 10+ technical deliverables and regularly engaged with executive management and stakeholders.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-          <div class="logo-slide w-slide">
-            <div class="row-3 w-row">
-              <div class="w-col w-col-4">
-                <div class="logo-wrap">
-                  <h4 class="logos-head">Launch of REal-time <br>payments system<br>‍</h4>
-                  <div class="logo-description">Developed business case, pricing recommendation, and led customer communication</div>
-                  <div class="logo-subtext">Project engagement</div>
-                  <div class="logo-subtext">Banking</div>
-                  <div class="logo-subtext">2018</div>
+            <div class="row" data-aos="fade-up" data-aos-once="true" style="padding-bottom: 100px;margin-right: 15px;margin-left: 15px;">
+                <div class="col">
+                    <!-- Start: Skills Card -->
+                    <div class="skills portfolio-info-card">
+                        <h2>Coding</h2>
+                        <h3>VBA</h3>
+                        <div class="progress">
+                            <div class="progress-bar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"><span class="sr-only">85%</span></div>
+                        </div>
+                        <h3>Python</h3>
+                        <div class="progress">
+                            <div class="progress-bar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"><span class="sr-only">70%</span></div>
+                        </div>
+                        <h3>SQL</h3>
+                        <div class="progress">
+                            <div class="progress-bar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"><span class="sr-only">50%</span></div>
+                        </div>
+                        <h3>HTML/CSS</h3>
+                        <div class="progress">
+                            <div class="progress-bar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"><span class="sr-only">50%</span></div>
+                        </div>
+                        <h3>C++</h3>
+                        <div class="progress">
+                            <div class="progress-bar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;"><span class="sr-only">25%</span></div>
+                        </div>
+                    </div>
+                    <!-- End: Skills Card -->
                 </div>
-              </div>
-              <div class="w-col w-col-4">
-                <div class="logo-wrap">
-                  <h4 class="logos-head">Payments <br>strategy 2022</h4>
-                  <div class="logo-description">Developed strategic payments roadmap for private clients</div>
-                  <div class="logo-subtext">Project engagement</div>
-                  <div class="logo-subtext">Banking</div>
-                  <div class="logo-subtext">2018</div>
+                <div class="col">
+                    <!-- Start: Skills Card -->
+                    <div class="skills portfolio-info-card">
+                        <h2>Software</h2>
+                        <h3>inVision Studio</h3>
+                        <div class="progress">
+                            <div class="progress-bar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"><span class="sr-only">85%</span></div>
+                        </div>
+                        <h3>Figma</h3>
+                        <div class="progress">
+                            <div class="progress-bar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"><span class="sr-only">70%</span></div>
+                        </div>
+                        <h3>Photoshop</h3>
+                        <div class="progress">
+                            <div class="progress-bar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"><span class="sr-only">70%</span></div>
+                        </div>
+                        <h3>Git</h3>
+                        <div class="progress">
+                            <div class="progress-bar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"><span class="sr-only">50%</span></div>
+                        </div>
+                        <h3>Adobe Analytics</h3>
+                        <div class="progress">
+                            <div class="progress-bar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;"><span class="sr-only">40%</span></div>
+                        </div>
+                    </div>
+                    <!-- End: Skills Card -->
                 </div>
-              </div>
-              <div class="w-col w-col-4">
-                <div class="logo-wrap">
-                  <h4 class="logos-head">open banking <br>ecosystems</h4>
-                  <div class="logo-description">Conceptualized a go-to-market strategy for service offering</div>
-                  <div class="logo-subtext">Sales</div>
-                  <div class="logo-subtext">Banking</div>
-                  <div class="logo-subtext">2018</div>
+                <div class="col">
+                    <!-- Start: Skills Card -->
+                    <div class="skills portfolio-info-card">
+                        <h2>Languages</h2>
+                        <h3>English</h3>
+                        <div class="progress">
+                            <div class="progress-bar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"><span class="sr-only">100%</span></div>
+                        </div>
+                        <h3>German</h3>
+                        <div class="progress">
+                            <div class="progress-bar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"><span class="sr-only">100%</span></div>
+                        </div>
+                        <h3>French</h3>
+                        <div class="progress">
+                            <div class="progress-bar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"><span class="sr-only">50%</span></div>
+                        </div>
+                    </div>
+                    <!-- End: Skills Card -->
                 </div>
-              </div>
             </div>
-          </div>
-          <div class="logo-slide w-slide">
-            <div class="row-3 w-row">
-              <div class="w-col w-col-4">
-                <div class="logo-wrap">
-                  <h4 class="logos-head">Road map to compete<br>digital-only banks</h4>
-                  <div class="logo-description">Coordinated project activities and developed Design Thinking training concept for entire bank</div>
-                  <div class="logo-subtext">Project engagement</div>
-                  <div class="logo-subtext">Banking</div>
-                  <div class="logo-subtext">2019</div>
+        </section>
+        <!-- End: Special Skills Block -->
+        <!-- Start: Special Skills Block -->
+        <section id="experience" class="portfolio-block skills">
+            <div class="container d-table" style="padding-bottom: 100px;">
+                <!-- Start: portfolio heading -->
+                <div class="heading">
+                    <h1 data-aos="fade-up" data-aos-once="true">Consulting Experience</h1>
                 </div>
-              </div>
-              <div class="w-col w-col-4">
-                <div class="logo-wrap">
-                  <h4 class="logos-head">Rapid prototyping<br>Workshop</h4>
-                  <div class="logo-description">Piloted rapid prototyping workshop for open banking as client offering</div>
-                  <div class="logo-subtext">Sales</div>
-                  <div class="logo-subtext">Banking</div>
-                  <div class="logo-subtext">2019</div>
+                <!-- End: portfolio heading -->
+                <div class="row" data-aos="fade-up" data-aos-once="true">
+                    <div class="col-md-4 d-table-cell">
+                        <div class="card shadow-sm special-skill-item border-0" style="width: 100%;height: 100%;">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-wrench icon-experience"></i></div>
+                            <div class="card-body" style="padding-bottom: 0px;">
+                                <h3 class="card-title">Digital Transformation</h3>
+                                <p class="d-table-cell card-text">Roadmap of new product and change management iniatives aimed at improving a regional bank's competitiveness. Responsible for project coordinationa across 12 streams and with executive management, internal communication
+                                    and introduce new methods such as Design Thinking.</p>
+                            </div>
+                            <div class="card-footer">
+                                <p style="margin-bottom: 0px;">3 months&nbsp; |&nbsp; &nbsp;Financial Services</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-table-cell">
+                        <div class="card shadow-sm special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-timer-outline icon-experience"></i></div>
+                            <div class="card-body" style="padding-bottom: 0px;">
+                                <h3 class="card-title">Real-Time Payments</h3>
+                                <p class="card-text">Launch of real-time payments solution at global bank to compete with PayPal and co. Responsible for business case, pricing, customer communication and go-live marketing, led product approval process.</p>
+                            </div>
+                            <div class="card-footer">
+                                <p style="margin-bottom: 0px;">9 months&nbsp; |&nbsp; &nbsp;Financial Services</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-table-cell">
+                        <div class="card shadow-sm special-skill-item border-0" style="width: 100%;height: 100%;">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-paperplane icon-experience"></i></div>
+                            <div class="card-body" style="padding-bottom: 0px;">
+                                <h3 class="card-title">Payments Strategy</h3>
+                                <p class="card-text">Digital Payments 3-year plan at global consumer bank.&nbsp;<br>Responsible for analysis of European payments ecosystem and a series of client<br> workshops, resulting in 6 key initiatives.<br></p>
+                            </div>
+                            <div class="card-footer">
+                                <p style="margin-bottom: 0px;">1 month&nbsp; |&nbsp; &nbsp;Financial Services</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card shadow-sm special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-network icon-experience"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Global SAP Implementation</h3>
+                                <p class="card-text">SAP Finance implementation at global retailer with team of 10 technical experts. Responsible for business process and technical requirement deliveries, build phase planning and effort estimation.</p>
+                            </div>
+                            <div class="card-footer">
+                                <p style="margin-bottom: 0px;">10 months&nbsp; |&nbsp; &nbsp;Retail</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card shadow-sm special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-android-desktop icon-experience"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Commercial Banking Platform</h3>
+                                <p class="card-text">Development of digital banking platform for small and medium businesses for leading European bank.&nbsp; Translated use cases into user stories, responsible for stakeholder management and EU-PSD2 regulatory requirements.</p>
+                            </div>
+                            <div class="card-footer">
+                                <p style="margin-bottom: 0px;">2 months&nbsp; |&nbsp; &nbsp;Financial Services</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card shadow-sm special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon-energy icon-experience"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Energy Portfolio Strategy</h3>
+                                <p class="card-text">Roadmap for new business opportunities&nbsp; in the power generation business of a large manufacturing company. Responsible for market and competitive analysis, identified 8 focus areas for client.</p>
+                            </div>
+                            <div class="card-footer">
+                                <p style="margin-bottom: 0px;">1 month&nbsp; |&nbsp; &nbsp;Energy &amp; Manufacturing</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="w-col w-col-4"></div>
             </div>
-          </div>
+        </section>
+        <!-- End: Special Skills Block -->
+        <!-- Start: Mobile App Gradient -->
+        <section id="projects" class="portfolio-block mobile-app gradient">
+            <div style="margin-bottom: 100px;">
+                <h1 class="text-center" data-aos="fade-up" data-aos-once="true">Projects</h1>
+                <p class="text-center" data-aos="fade-up" data-aos-once="true" style="margin-right: 5%;margin-left: 5%;">This is a selected collection of my professional and educational work </p>
+            </div>
+            <div class="container align-items-center" style="margin-top: 10px;margin-bottom: 10px;position: relative;">
+                <h3 class="text-center" data-aos="fade-left" data-aos-once="true">Cornell Tech Product Studio</h3>
+                <div class="row d-flex d-xl-flex justify-content-center align-items-center justify-content-xl-center align-items-xl-center">
+                    <div class="col-auto col-md-12 col-lg-3 col-xl-3 offset-lg-2 offset-xl-1 m-auto" data-aos="fade-right" data-aos-once="true" style="margin-left: 0px;">
+                        <div class="d-flex justify-content-center align-items-center" style="background-image: url(&quot;assets/img/IPhone_XR_Blue.svg?h=45f97b2d3cc596bc96b052ebf5c1308f&quot;);background-size: contain;background-repeat: no-repeat;width: 100%;min-height: 300px;background-position: center;"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube-nocookie.com/embed/AJDhXNy5Bnk?autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=AJDhXNy5Bnk&amp;controls=0" width="136" height="300" style="margin: 10px;border-radius: 1rem;"></iframe></div>
+                    </div>
+                    <div class="col-lg-6 col-xl-6" data-aos="fade-left" data-aos-once="true">
+                        <div class="card special-skill-item border-0 item zoom-on-hover card-darkbg" style="width: 100%;height: 100%;background-color: rgba(255,255,255,0);">
+                            <div class="card-header bg-transparent border-0">
+                                <h4 style="color: rgb(255,255,255);">Enedin -&nbsp;Improving Building Energy&nbsp; Performance&nbsp;<br></h4>
+                                <h5 style="color: rgb(255,255,255);">Product Challenge in cooperation with Arup</h5>
+                            </div>
+                            <div class="card-body" style="padding-bottom: 0px;">
+                                <p class="card-text" style="color: rgb(255,255,255);">Enedin&nbsp;provides customized recommendations towards energy savings goals for single-family homes in a&nbsp;cheap and fast way while educating customers on environmental impact.​</p>
+                            </div>
+                            <div class="card-footer" style="border: none!important;">
+                                <p style="margin-bottom: 0px;color: rgb(255,255,255);">MOBILE APP&nbsp; | DESIGN: INVISION STUDIO&nbsp; | DEV: PYTHON &amp; IONIC5</p>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-start image_hover"><a href="https://tech.cornell.edu/news/cornell-tech-students-win-4th-place-prize-in-adobe-analytics-challenge/" style="width: 100%;height: 100%;" target="_blank"></a></div>
+                        </div>
+                    </div>
+                    <div class="col text-center" data-aos="fade-left"><a href="assets/img/eneding_poster.jpeg?h=11e1118134e404c401ed650745271bb9" target="_blank"><img class="img-fluid shadow" src="assets/img/eneding_poster.jpeg?h=11e1118134e404c401ed650745271bb9" style="height: 300px;"></a></div>
+                </div>
+            </div>
+        </section>
+        <!-- End: Mobile App Gradient -->
+        <section style="padding-top: 50px;padding-bottom: 100px;">
+            <div class="container d-table">
+                <!-- Start: portfolio heading -->
+                <div class="heading">
+                    <h2 class="text-center" data-aos="fade-up" data-aos-once="true" style="margin-bottom: 0px;margin-top: 50px;">Further Projects </h2>
+                    <p class="text-center" data-aos="fade-up" data-aos-once="true" style="padding-bottom: 20px;margin-bottom: 50px;">that I have been working on lately</p>
+                </div>
+                <!-- End: portfolio heading -->
+                <div class="row" data-aos="fade-up" data-aos-once="true">
+                    <div class="col-md-4 d-table-cell">
+                        <div class="card shadow-sm special-skill-item border-0 item zoom-on-hover" style="width: 100%;height: 100%;">
+                            <div class="card-header bg-transparent border-0"><img class="img-fluid image" src="assets/img/Virtual%20Box%20Setup_new.png?h=c3b7fec27432918529321d3749fba6f5"></div>
+                            <div class="card-body" style="padding-bottom: 0px;">
+                                <h4 class="name" style="margin-bottom: 12px;margin-top: 12px;">MLB.TV Virtual Box</h4>
+                                <p class="card-text">Analyzed mlb.com data and redesigned MLB.TV as social streaming experience for family and friends. Placed 4th in finals at Adobe and won $3,000 prize</p>
+                            </div>
+                            <div class="card-footer d-table-cell">
+                                <p style="margin-bottom: 0px;">Adobe Analytics&nbsp; |&nbsp; Case Competition&nbsp; |&nbsp; InVision Studio</p>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-start image_hover"><a href="https://tech.cornell.edu/news/cornell-tech-students-win-4th-place-prize-in-adobe-analytics-challenge/" style="width: 100%;height: 100%;" target="_blank"><button class="btn btn-primary" type="button" style="margin-top: 25%;">Show More</button></a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-table-cell">
+                        <div class="card shadow-sm special-skill-item border-0 item zoom-on-hover" style="width: 100%;height: 100%;">
+                            <div class="card-header bg-transparent border-0"><img class="img-fluid image" src="assets/img/cabmodel.jpg?h=0c2dbee58455ed023bf5e00899e1ee1e"></div>
+                            <div class="card-body" style="padding-bottom: 0px;">
+                                <h4 class="name" style="margin-bottom: 12px;margin-top: 12px;">Predicting Cab Fares</h4>
+                                <p class="card-text">Built a decision tree model to predict high/low fare and tip/no tip using Python and BigML</p>
+                            </div>
+                            <div class="card-footer">
+                                <p style="margin-bottom: 0px;">Data Analytics |&nbsp; ML&nbsp; |&nbsp; Python</p>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-start image_hover"><a href="https://github.com/f0bs/Predicting_NYC_Cab_Fares" style="width: 100%;height: 100%;" target="_blank"><button class="btn btn-primary" type="button" style="margin-top: 25%;">Show More</button></a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-table-cell">
+                        <div class="card shadow-sm special-skill-item border-0 item zoom-on-hover" style="width: 100%;height: 100%;">
+                            <div class="card-header bg-transparent border-0"><img class="img-fluid image" src="assets/img/Harris.jpg?h=875066f2e6c6f58c3327fb5d669e11da"></div>
+                            <div class="card-body" style="padding-bottom: 0px;">
+                                <h4 class="name" style="margin-bottom: 12px;margin-top: 12px;">Panoramic Photo Stitcher</h4>
+                                <p class="card-text">Built a python tool to to detect and match image features and align multiple photos into a 360° panorama</p>
+                            </div>
+                            <div class="card-footer">
+                                <p style="margin-bottom: 0px;">Computer Vision&nbsp; |&nbsp; OpenCV&nbsp; |&nbsp; Python</p>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-start image_hover"><a href="https://github.com/f0bs/Computer_Vision/blob/master/README.md#project-3-creating-panorama-pictures-with-autostitch" style="width: 100%;height: 100%;" target="_blank"><button class="btn btn-primary" type="button" style="margin-top: 25%;">Show More</button></a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-table-cell">
+                        <div class="card shadow-sm special-skill-item border-0 item zoom-on-hover" style="width: 100%;height: 100%;">
+                            <div class="card-header bg-transparent border-0"><img class="img-fluid image" src="assets/img/digithon.jpg?h=7c69b4f1bdb762874a259335bdc6bb1e"></div>
+                            <div class="card-body" style="padding-bottom: 0px;">
+                                <h4 class="name" style="margin-bottom: 12px;margin-top: 12px;">Open Banking Digithon</h4>
+                                <p class="card-text">Launched an open banking hackathon for financial services, ran internal pilot and created sales materials&nbsp;</p>
+                            </div>
+                            <div class="card-footer">
+                                <p style="margin-bottom: 0px;">Design Sprints&nbsp; |&nbsp; Product Innovation&nbsp; |&nbsp; Workshops</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-table-cell">
+                        <div class="card shadow-sm special-skill-item border-0 item zoom-on-hover" style="width: 100%;height: 100%;">
+                            <div class="card-header bg-transparent border-0"><img class="img-fluid image" src="assets/img/team_app.jpg?h=b11f29307230e262a0f66ead5f1e932a"></div>
+                            <div class="card-body" style="padding-bottom: 0px;">
+                                <h4 class="name" style="margin-bottom: 12px;margin-top: 12px;">IDEntity Team App</h4>
+                                <p class="card-text">Built mobile app for Capgemini's Insights-Driven Enterprise (IDE) Team to accelerate onboarding, keep up with events and get to know the team</p>
+                            </div>
+                            <div class="card-footer">
+                                <p style="margin-bottom: 0px;">Mobile App&nbsp; |&nbsp; MS Power Apps&nbsp; |&nbsp; MS Power Automate</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-table-cell">
+                        <div class="card shadow-sm special-skill-item border-0 item zoom-on-hover" style="width: 100%;height: 100%;">
+                            <div class="card-header bg-transparent border-0"><img class="img-fluid image" src="assets/img/PAT.jpg?h=991491ef43f51ebcec939ab9c8392070"></div>
+                            <div class="card-body" style="padding-bottom: 0px;">
+                                <h4 class="name" style="margin-bottom: 12px;margin-top: 12px;">Investment Dashboard</h4>
+                                <p class="card-text">Programmed an automated tool to track monthly alpha investment performance&nbsp;</p>
+                            </div>
+                            <div class="card-footer">
+                                <p style="margin-bottom: 0px;">Data Analytics&nbsp; |&nbsp; Excel&nbsp; |&nbsp; VBA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section id="publications" style="margin-top: 50px;margin-bottom: 100px;">
+        <div class="container">
+            <h1 class="text-center" data-aos="fade-up" data-aos-once="true">Publications</h1>
+            <p class="text-center" data-aos="fade-up" data-aos-once="true" style="margin-bottom: 50px;">Blog articles that I have published or contributed to</p>
+            <div class="row" data-aos="fade-up" data-aos-once="true">
+                <div class="col-md-5 offset-md-1 d-table-cell">
+                    <div class="card shadow-sm special-skill-item border-0 item zoom-on-hover" style="width: 100%;height: 100%;">
+                        <div class="card-header bg-transparent border-0"><img class="img-fluid image" src="assets/img/Publication_small.png?h=8d4421baa192f5573967575a6436fb0a"></div>
+                        <div class="card-body" style="padding-bottom: 0px;">
+                            <h4 class="name" style="margin-bottom: 12px;margin-top: 12px;"><strong>Embracing the APIconomy (I): If you can’t beat them, allow them to join you</strong></h4>
+                            <p class="card-text">What banks can gain from inviting FinTechs onto their platforms</p>
+                        </div>
+                        <div class="card-footer">
+                            <p style="margin-bottom: 0px;">A series on why API are the foundation of Open Banking for banking managers and executives</p>
+                        </div>
+                        <div class="d-flex justify-content-center align-items-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-start image_hover"><a href="https://www.capgemini.com/de-de/2018/08/api-management-1/" style="width: 100%;height: 100%;" target="_blank"><button class="btn btn-primary" type="button" style="margin-top: 25%;">Read More</button></a></div>
+                    </div>
+                </div>
+                <div class="col-md-5 d-table-cell">
+                    <div class="card shadow-sm special-skill-item border-0 item zoom-on-hover" style="width: 100%;height: 100%;">
+                        <div class="card-header bg-transparent border-0"><img class="img-fluid image" src="assets/img/Publication_small.png?h=8d4421baa192f5573967575a6436fb0a"></div>
+                        <div class="card-body" style="padding-bottom: 0px;">
+                            <h4 class="name" style="margin-bottom: 12px;margin-top: 12px;"><strong>Embracing the APIconomy (II): Meeting customer expectations on the developer side</strong><br></h4>
+                            <p class="card-text">Why Developer Experience matters when offering APIs</p>
+                        </div>
+                        <div class="card-footer">
+                            <p style="margin-bottom: 0px;">A series on why API are the foundation of Open Banking for banking managers and executives</p>
+                        </div>
+                        <div class="d-flex justify-content-center align-items-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-start image_hover"><a href="https://www.capgemini.com/de-de/2018/08/api-management-1/" style="width: 100%;height: 100%;" target="_blank"><button class="btn btn-primary" type="button" style="margin-top: 25%;">Read More</button></a></div>
+                    </div>
+                </div>
+            </div>
+            <h5 class="text-center" style="color: rgb(142,142,142);margin-top: 40px;margin-bottom: 20px;"><strong>Further Contributions</strong></h5>
+            <div class="row" data-aos="fade-up" data-aos-once="true">
+                <div class="col-md-5 offset-md-1 d-table-cell">
+                    <div class="card shadow-sm special-skill-item border-0 item zoom-on-hover" style="width: 100%;height: 100%;">
+                        <div class="card-header bg-transparent border-0"></div>
+                        <div class="card-body" style="padding-bottom: 0px;">
+                            <h4 class="name" style="margin-bottom: 12px;margin-top: 12px;"><strong>Embracing the APIconomy (III-V)</strong><br></h4>
+                            <p class="card-text">Read the rest of the series</p>
+                        </div>
+                        <div class="card-footer">
+                            <p style="margin-bottom: 0px;">A series on why API are the foundation of Open Banking for banking managers and executives</p>
+                        </div>
+                        <div class="d-flex justify-content-center align-items-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-start image_hover"><a href="https://www.capgemini.com/de-de/?s=embracing+the+apiconomy" style="width: 100%;height: 100%;" target="_blank"><button class="btn btn-primary" type="button" style="margin-top: 25%;">Read More</button></a></div>
+                    </div>
+                </div>
+                <div class="col-sm-5 d-table-cell">
+                    <div class="card shadow-sm special-skill-item border-0 item zoom-on-hover" style="width: 100%;height: 100%;">
+                        <div class="card-header bg-transparent border-0"></div>
+                        <div class="card-body" style="padding-bottom: 0px;">
+                            <h4 class="name" style="margin-bottom: 12px;margin-top: 12px;"><strong>Open&nbsp;Banking Ecosystems</strong><br></h4>
+                            <p class="card-text">Open Banking is the new keyword in the banking industry. What does it mean for the future of banking?</p>
+                        </div>
+                        <div class="card-footer">
+                            <p style="margin-bottom: 0px;">A series on Open Banking and platform ecosystems for banking managers and executives</p>
+                        </div>
+                        <div class="d-flex justify-content-center align-items-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-start image_hover"><a href="https://www.capgemini.com/de-de/?s=Open+Banking+Ecosystems" style="width: 100%;height: 100%;" target="_blank"><button class="btn btn-primary" type="button" style="margin-top: 25%;">Read More</button></a></div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="left-arrow-wrap w-slider-arrow-left">
-          <div class="arrow-icon w-icon-slider-left"></div>
+    </section>
+    <section id="education-1" style="margin-top: 50px;margin-bottom: 100px;">
+        <div class="container">
+            <h1 class="text-center" data-aos="fade-up" data-aos-once="true" style="margin-bottom: 50px;">Education</h1>
+            <div class="row" style="margin-bottom: 50px;">
+                <div class="col text-right align-self-center" data-aos="fade-right" data-aos-once="true"><img class="img-fluid align-self-center" src="assets/img/cornellT.svg?h=67151ca695c091c221997826b672ba01" width="150px"></div>
+                <div class="col text-left align-self-center" data-aos="fade-left" data-aos-once="true">
+                    <h5>Johnson Cornell Tech MBA</h5>
+                    <p class="p-no-margin">M.B.A Class of 2020</p>
+                    <p class="p-no-margin">New York, NY</p>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom: 50px;">
+                <div class="col text-right align-self-center" data-aos="fade-right" data-aos-once="true"><img class="img-fluid align-self-center" src="assets/img/state.jpg?h=d5e8431070c524ee371d3ace3d71bcbb" width="130px" style="margin-right: 10px;"></div>
+                <div class="col text-left align-self-center" data-aos="fade-left" data-aos-once="true">
+                    <h5>North Carolina State University</h5>
+                    <p class="p-no-margin">B.S. in Business Administration:&nbsp;Finance (Dual Degree with ESB)&nbsp;</p>
+                    <p class="p-no-margin">Raleigh, NC</p>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom: 15px;">
+                <div class="col text-right align-self-center" data-aos="fade-right" data-aos-once="true"><img class="img-fluid align-self-center" src="assets/img/esb_short.png?h=baac9781c51d594b7c5cdaa47c91c8c4" width="200px"></div>
+                <div class="col text-left align-self-center" data-aos="fade-left" data-aos-once="true">
+                    <h5>ESB Business School, Reutlingen University</h5>
+                    <p class="p-no-margin">B.S. in International Management</p>
+                    <p class="p-no-margin">Reutlingen, Germany</p>
+                </div>
+            </div>
         </div>
-        <div class="right-arrow-wrap w-slider-arrow-right">
-          <div class="arrow-icon w-icon-slider-right"></div>
+    </section>
+    <!-- Start: Parallax Background -->
+    <div class="d-flex d-xl-flex justify-content-center align-items-center align-content-center justify-content-xl-center align-items-xl-center" data-bs-parallax-bg="true" id="personal" style="height:500px;background-image:url(https://unsplash.it/1800/900?image=1051);background-position:center;background-size:cover;">
+        <div class="text-center align-self-center">
+            <h1 class="text-center" data-aos="fade-up" data-aos-once="true" style="color: rgb(255,255,255);">Personal</h1>
         </div>
-      </div>
     </div>
-    <div id="digital" class="skills">
-      <h3 data-ix="on-scroll-1" class="heading-3">Digital Skills</h3>
-      <div class="header-small" data-ix="on-scroll-1">Programming skills</div>
-      <div class="skill-row w-row" data-ix="on-scroll-2">
-        <div data-ix="on-scroll-2" class="w-col w-col-4">
-          <p class="skill-title">VBA</p>
-          <div class="skill-wrapper w-clearfix">
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-gray"></div>
-          </div>
-          <p class="skill-title">SQL</p>
-          <div class="skill-wrapper w-clearfix">
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-          </div>
-        </div>
-        <div data-ix="on-scroll-2" class="w-col w-col-4">
-          <p class="skill-title">Python</p>
-          <div class="skill-wrapper w-clearfix">
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-          </div>
-          <p class="skill-title">Swift (iOS)</p>
-          <div class="skill-wrapper w-clearfix">
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-          </div>
-        </div>
-        <div data-ix="on-scroll-3" class="skill-title w-col w-col-4">
-          <p>html5/css3</p>
-          <div class="skill-wrapper w-clearfix">
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-          </div>
-          <p class="skill-title">JavaScript/jQuery</p>
-          <div class="skill-wrapper w-clearfix">
-            <div class="skill-10-light"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-          </div>
-        </div>
-      </div>
-      <div class="header-small" data-ix="on-scroll-1">Software</div>
-      <div class="skill-row w-row" data-ix="on-scroll-2">
-        <div data-ix="on-scroll-1" class="w-col w-col-4">
-          <p class="skill-title">Adobe XD</p>
-          <div class="skill-wrapper w-clearfix">
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-          </div>
-          <p class="skill-title">Balsamiq</p>
-          <div class="skill-wrapper w-clearfix">
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-          </div>
-        </div>
-        <div data-ix="on-scroll-2" class="w-col w-col-4">
-          <p class="skill-title">Webflow</p>
-          <div class="skill-wrapper w-clearfix">
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-          </div>
-          <p class="skill-title">Adobe InDesign</p>
-          <div class="skill-wrapper w-clearfix">
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-          </div>
-        </div>
-        <div data-ix="on-scroll-3" class="w-col w-col-4">
-          <p class="skill-title">Adobe Photoshop</p>
-          <div class="skill-wrapper w-clearfix">
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-          </div>
-          <p class="skill-title">Microsoft PowerApps</p>
-          <div class="skill-wrapper w-clearfix">
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-light"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-            <div class="skill-10-gray"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="professional" class="publications-section">
-    <h3 data-ix="on-scroll-1" id="digiport" class="heading-3 dark-text">Publications</h3>
-    <div class="w-layout-grid publications">
-      <div class="work-box blog" data-ix="on-scroll-1">
-        <a href="https://www.capgemini.com/de-de/2018/08/api-management-1/" target="_blank" class="link-block blog w-inline-block">
-          <div class="blog">
-            <div class="blog-description">
-              <h1 class="blog-header">Embracing the APIconomy (I):<br>If you can’t beat them, allow them to join you</h1>
-              <h1 class="blog-header small">Why Banks should invite FinTechs onto their platforms</h1>
+    <!-- End: Parallax Background -->
+    <section>
+        <!-- Start: Website White -->
+        <section class="portfolio-block website">
+            <div class="container">
+                <div class="row align-items-center row-personal">
+                    <div class="col-md-5 col-lg-5 offset-md-1 offset-lg-1 text" data-aos="fade-right" data-aos-once="true">
+                        <h3>Mentoring</h3>
+                        <p>I've been an Alumni mentor at ESB since 2019 and currently mentor a young business student on a bi-weekly basis.&nbsp;</p>
+                    </div>
+                    <div class="col-md-5 col-lg-5" data-aos="fade-left" data-aos-once="true"><img class="rounded-circle img-fluid" src="assets/img/mentoring.jpg?h=a008b3937936b2f18b07b726c0eb6ba1"></div>
+                </div>
+                <div class="row align-items-center row-personal">
+                    <div class="col-md-5 col-lg-5 offset-md-1" data-aos="fade-right" data-aos-once="true"><img class="rounded-circle img-fluid" src="assets/img/IMG_3518.jpg?h=58fe4ff14dfba444729f13617bd47933"></div>
+                    <div class="col-md-5 col-lg-5 text text-left-lg" data-aos="fade-left" data-aos-once="true">
+                        <h3>Mountains</h3>
+                        <p>I grew up close to mountains and have always enjoyed going out in nature. I've been hiking, snowboarding and mountain biking in Italy, Germany, Austria, Costa Rica, Switzerland and the US. My most recent hike was the Cathedral
+                            Rock Trail in Sedona, AZ.</p>
+                    </div>
+                </div>
+                <div class="row align-items-center row-personal">
+                    <div class="col-md-5 col-lg-5 offset-md-1 offset-lg-1 text" data-aos="fade-right" data-aos-once="true">
+                        <h3>Move around</h3>
+                        <p>I love the actual planning part of going on a trip. I could spend ours checking out flights, hotels and places to go. I've probably planned 20 trips for family and friends that I wasn't even part of. Of course I like the travel
+                            part too. My goal is to see al 50 US States, I'm down to 17 remaining.</p>
+                    </div>
+                    <div class="col-md-5 col-lg-5" data-aos="fade-left" data-aos-once="true"><img class="rounded-circle img-fluid" src="assets/img/IMG_2236.jpg?h=4aa2d69420ad9b83689f1c8e46053b5a"></div>
+                </div>
+                <div class="row align-items-center row-personal">
+                    <div class="col-md-5 col-lg-5 offset-md-1 offset-lg-1" data-aos="fade-right" data-aos-once="true"><img class="rounded-circle img-fluid" src="assets/img/IMG_3514.jpg?h=9eee38db733851ad9a76c0dfa8cb9fa4"></div>
+                    <div class="col-md-5 col-lg-5 text text-left-lg" data-aos="fade-left" data-aos-once="true">
+                        <h3>Music</h3>
+                        <p>I'm a huge Electro fan, I listen to pretty much anything from House, EDM, Trance and Chillout. A highlight was going to the World Club Dome 2018 in Frankfurt.</p>
+                    </div>
+                </div>
+                <div class="row align-items-center row-personal">
+                    <div class="col-md-5 col-lg-5 offset-md-1 offset-lg-1 text" data-aos="fade-right" data-aos-once="true">
+                        <h3>Mixology</h3>
+                        <p>I enjoy making bitter cocktails and aperitivos.&nbsp; My favorite drink is a negroni, but I mostly try my own variations.</p>
+                    </div>
+                    <div class="col-md-5 col-lg-5" data-aos="fade-left" data-aos-once="true"><img class="rounded-circle img-fluid" src="assets/img/IMG_3422.jpg?h=dbc75332badb86deb1949c8095e9edb8"></div>
+                </div>
             </div>
-          </div>
-          <div class="hover-2 blog">
-            <div class="hover-button">Read More</div>
-          </div>
-        </a>
-      </div>
-      <div class="work-box blog" data-ix="on-scroll-1">
-        <a href="https://www.capgemini.com/de-de/2018/09/api-management-2/" target="_blank" class="link-block blog w-inline-block">
-          <div class="blog">
-            <div class="blog-description">
-              <h1 class="blog-header">Embracing the APIconomy (II):<br>Meeting customer expectations on the developer side</h1>
-              <h1 class="blog-header small">Why Developer Experience matters when offering APIs</h1>
-            </div>
-          </div>
-          <div class="hover-2 blog">
-            <div class="hover-button">Read More</div>
-          </div>
-        </a>
-      </div>
-    </div>
-    <div class="w-layout-grid publications">
-      <div data-animation="slide" data-duration="500" data-infinite="1" id="w-node-daeda4714f9a-3ab4d9b5" class="blog-slider w-slider" data-ix="on-scroll-3">
-        <h1 class="heading-4 grid">Further contributions: </h1>
-        <div class="w-slider-mask">
-          <div class="w-slide">
-            <div class="w-layout-grid blog-grid">
-              <div class="work-box blog">
-                <a href="https://www.capgemini.com/de-de/2018/10/api-management-3/" target="_blank" class="link-block blog small w-inline-block">
-                  <div class="blog small">
-                    <div class="blog-description small">
-                      <h1 class="blog-header grid">Embracing the APIconomy (III): <br>Governance – the glue that holds it all together</h1>
-                    </div>
-                  </div>
-                  <div class="hover-2 blog">
-                    <div class="hover-button small">Read More</div>
-                  </div>
-                </a>
-              </div>
-              <div class="work-box blog">
-                <a href="https://www.capgemini.com/de-de/2018/10/api-management-4/" target="_blank" class="link-block blog small w-inline-block">
-                  <div class="blog small">
-                    <div class="blog-description small">
-                      <h1 class="blog-header grid">Embracing the APIconomy (IV): <br>Monetization – unlock value for your customers AND you</h1>
-                    </div>
-                  </div>
-                  <div class="hover-2 blog">
-                    <div class="hover-button small">Read More</div>
-                  </div>
-                </a>
-              </div>
-              <div class="work-box blog">
-                <a href="https://www.capgemini.com/de-de/2018/11/api-management-5/" target="_blank" class="link-block blog small w-inline-block">
-                  <div class="blog small">
-                    <div class="blog-description small">
-                      <h1 class="blog-header grid">Embracing the APIconomy (V): <br>API Dos and Don’ts</h1>
-                    </div>
-                  </div>
-                  <div class="hover-2 blog">
-                    <div class="hover-button small">Read More</div>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="w-slide">
-            <div class="w-layout-grid blog-grid">
-              <div class="work-box blog">
-                <a href="https://www.der-bank-blog.de/drittanbieter-kundengruppe-banking/digital-banking/34388/" target="_blank" class="link-block blog small w-inline-block">
-                  <div class="blog small bankblog">
-                    <div class="blog-description small bankblog">
-                      <h1 class="blog-header grid">Drittanbieter – die neue Kundengruppe im Banking Ökosystem</h1>
-                    </div>
-                  </div>
-                  <div class="hover-2 blog">
-                    <div class="hover-button small">Read More</div>
-                  </div>
-                </a>
-              </div>
-              <div class="work-box blog">
-                <a href="https://www.capgemini.com/de-de/2017/07/digital-disruption/" target="_blank" class="link-block blog small w-inline-block">
-                  <div class="blog small ecosystem">
-                    <div class="blog-description small">
-                      <h1 class="blog-header grid">Open Banking Ecosystems (1): The Winner Takes It All!</h1>
-                    </div>
-                  </div>
-                  <div class="hover-2 blog">
-                    <div class="hover-button small">Read More</div>
-                  </div>
-                </a>
-              </div>
-              <div class="work-box blog">
-                <a href="https://www.capgemini.com/de-de/2017/07/value-creation/" target="_blank" class="link-block blog small w-inline-block">
-                  <div class="blog small ecosystem">
-                    <div class="blog-description small">
-                      <h1 class="blog-header grid">Open Banking Ecosystems (2): How to elaborate a target picture</h1>
-                    </div>
-                  </div>
-                  <div class="hover-2 blog">
-                    <div class="hover-button small">Read More</div>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="w-slide">
-            <div class="w-layout-grid blog-grid">
-              <div class="work-box blog">
-                <a href="https://www.capgemini.com/de-de/2017/08/theplatformsnetwork/" target="_blank" class="link-block blog small w-inline-block">
-                  <div class="blog small ecosystem">
-                    <div class="blog-description small">
-                      <h1 class="blog-header grid">Open Banking Ecosystems (3): The Platform’s Network</h1>
-                    </div>
-                  </div>
-                  <div class="hover-2 blog">
-                    <div class="hover-button small">Read More</div>
-                  </div>
-                </a>
-              </div>
-              <div class="work-box blog">
-                <a href="https://www.capgemini.com/de-de/2017/09/open-banking-ecosystems-api-devotion/" target="_blank" class="link-block blog small w-inline-block">
-                  <div class="blog small ecosystem">
-                    <div class="blog-description small">
-                      <h1 class="blog-header grid">Open Banking Ecosystems (4): API Devotion</h1>
-                    </div>
-                  </div>
-                  <div class="hover-2 blog">
-                    <div class="hover-button small">Read More</div>
-                  </div>
-                </a>
-              </div>
-              <div class="work-box blog">
-                <a href="https://www.capgemini.com/de-de/2017/09/platform-data/" target="_blank" class="link-block blog small w-inline-block">
-                  <div class="blog small ecosystem">
-                    <div class="blog-description small">
-                      <h1 class="blog-header grid">Open Banking Ecosystems (5): Platform Data</h1>
-                    </div>
-                  </div>
-                  <div class="hover-2 blog">
-                    <div class="hover-button small">Read More</div>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="w-slide">
-            <div class="w-layout-grid blog-grid">
-              <div class="work-box blog">
-                <a href="https://www.capgemini.com/de-de/2017/09/open-banking-ecosystems-psd2/" target="_blank" class="link-block blog small w-inline-block">
-                  <div class="blog small ecosystem">
-                    <div class="blog-description small">
-                      <h1 class="blog-header grid">Open Banking Ecosystems (6): PSD2 as an opportunity to compete</h1>
-                    </div>
-                  </div>
-                  <div class="hover-2 blog">
-                    <div class="hover-button small">Read More</div>
-                  </div>
-                </a>
-              </div>
-              <div class="work-box blog">
-                <a href="https://www.capgemini.com/de-de/2017/10/open-banking-ecosystem-7/" target="_blank" class="link-block blog small w-inline-block">
-                  <div class="blog small ecosystem">
-                    <div class="blog-description small">
-                      <h1 class="blog-header grid">Open Banking Ecosystems (7): Execution &amp; Operation</h1>
-                    </div>
-                  </div>
-                  <div class="hover-2 blog">
-                    <div class="hover-button small">Read More</div>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
+        </section>
+        <!-- End: Website White -->
+    </section>
+    <!-- Start: Mobile App Gradient -->
+    <section class="page-contact gradient" style="padding-bottom: 29px;">
+        <h1>Let's keep in touch</h1>
+        <div data-aos="fade-up" class="social-icons"><img class="img-fluid" data-aos="fade-up" data-aos-offset="50px" data-aos-once="true" src="assets/img/avataaars.png?h=2e965c1424fcb7c55271d834cd2df8d1" style="min-width: 50px;max-width: 150px;"></div>
+        <div data-aos="fade-up" class="social-icons"><a href="mailto:hi@daiber.me"><i class="icon ion-email"></i></a><a href="https://github.com/f0bs" target="_blank"><i class="icon ion-social-github"></i></a><a href="https://www.linkedin.com/in/fpdaiber/" target="_blank"><i class="typcn typcn-social-linkedin"></i></a></div>
+    </section>
+    <!-- End: Mobile App Gradient -->
+    <footer class="page-footer" style="background-color: #dcd8d8;">
+        <div class="container" data-aos="fade-up" data-aos-once="true">
+            <div class="links"><a href="#">Home</a><a href="#about-me">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#personal">Personal</a></div>
         </div>
-        <div class="w-slider-arrow-left">
-          <div class="icon-2 w-icon-slider-left"></div>
-        </div>
-        <div class="w-slider-arrow-right">
-          <div class="icon-3 w-icon-slider-right"></div>
-        </div>
-        <div class="slide-nav w-slider-nav w-round"></div>
-      </div>
-    </div>
-  </section>
-  <div id="digiportfolio" class="my-projects">
-    <h3 data-ix="on-scroll-1" id="digiport" class="heading-3 dark-text">My Projects</h3>
-    <div class="projects" data-ix="on-scroll-2">
-      <div class="work-box" data-ix="on-scroll-1"><a href="#" class="link-block w-inline-block"><img src="images/tavern1.jpg" width="462" srcset="images/tavern1-p-500.jpeg 500w, images/tavern1-p-800.jpeg 800w, images/tavern1-p-1080.jpeg 1080w, images/tavern1-p-1600.jpeg 1600w, images/tavern1.jpg 1622w" sizes="(max-width: 479px) 74vw, (max-width: 767px) 56vw, (max-width: 991px) 28vw, 30vw" alt="" class="image-37"><div class="hover-7"><div class="hover-text"><h1 class="heading-7-wf">tāverns<br></h1><h4 class="heading-4---w-box">CONCEPT · PROTOTYPING<br> UI/UX DESIGN</h4><h4 class="heading-4---w-box">In Development<br>(Codename: BeerCulees)</h4></div></div></a></div>
-      <div class="work-box" data-ix="on-scroll-1">
-        <a href="#" class="link-block w-inline-block">
-          <div class="hover-4">
-            <div class="hover-text">
-              <h1 class="heading-7-wf">Performance <br>Dashboard</h1>
-              <h4 class="heading-4---w-box">PROGRAMMED IN VBA<br>DASHBOARD DESIGN</h4>
-              <h4 class="heading-4---w-box">Tracking Alpha Performance <br>in Asset Management</h4>
-            </div>
-          </div><img src="images/PAT.jpg" srcset="images/PAT-p-500.jpeg 500w, images/PAT-p-800.jpeg 800w, images/PAT-p-1080.jpeg 1080w, images/PAT-p-1600.jpeg 1600w, images/PAT.jpg 2000w" sizes="(max-width: 479px) 74vw, (max-width: 767px) 56vw, (max-width: 991px) 28vw, 30vw" alt="" class="image-41"></a>
-      </div>
-      <div class="work-box" data-ix="on-scroll-1"><a href="#" class="link-block w-inline-block"><img src="images/gooddeedz.jpg" width="462" srcset="images/gooddeedz-p-500.jpeg 500w, images/gooddeedz-p-800.jpeg 800w, images/gooddeedz-p-1080.jpeg 1080w, images/gooddeedz-p-1600.jpeg 1600w, images/gooddeedz-p-2000.jpeg 2000w, images/gooddeedz.jpg 2389w" sizes="(max-width: 479px) 74vw, (max-width: 767px) 56vw, (max-width: 991px) 28vw, 30vw" alt="" class="image-39"><div class="hover-1"><div class="hover-text"><h3 class="heading-7-wf">gooddeedz.co</h3><h2 class="heading-4---w-box">CONCEPT · UI/UX DESIGN<br>FRONT-END DEVELOPMENT</h2><h2 class="heading-4---w-box">(Discontinued)</h2></div></div></a></div>
-      <div class="work-box" data-ix="on-scroll-2">
-        <a href="#" class="link-block w-inline-block">
-          <div class="hover-5">
-            <div class="hover-text" data-ix="on-scroll-1">
-              <h1 class="heading-7-wf">velı.</h1>
-              <h4 class="heading-4---w-box"><br>IN BALSAMIQ<br>RAPID PROTOTYPING</h4>
-              <h4 class="heading-4---w-box">Capgemini Smart <br>Home Workshop</h4>
-            </div>
-          </div><img src="images/veli1.jpg" srcset="images/veli1-p-500.jpeg 500w, images/veli1-p-800.jpeg 800w, images/veli1-p-1080.jpeg 1080w, images/veli1-p-1600.jpeg 1600w, images/veli1.jpg 2000w" sizes="(max-width: 479px) 74vw, (max-width: 767px) 56vw, (max-width: 991px) 28vw, 30vw" alt="" class="image-42"></a>
-      </div>
-    </div>
-    <div class="ct-projects">
-      <h3 data-ix="on-scroll-1" id="digiport" class="heading-3 dark-text">Cornell Tech Studio Projects</h3>
-      <div class="projects cornell">
-        <div class="work-box" data-ix="on-scroll-1">
-          <a href="#" class="link-block w-inline-block">
-            <div class="div-block-115"><img src="images/patent-map.svg" alt="" class="image-48">
-              <div class="blog-header studio">Product Studio</div>
-              <h1 class="blog-header small">COMING SOON</h1>
-            </div>
-            <div class="hover-2">
-              <div class="hover-text studio">
-                <h1 class="heading-7-wf wip">Product Studio<br></h1>
-                <h4 class="heading-4---w-box">Challenge: How might we optimize and monitor energy performance to lessen the environmental impact of existing buildings?</h4>
-                <h4 class="heading-4---w-box">MORE TO COME</h4>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <section id="about" class="about-me">
-    <h3 data-ix="on-scroll-1" class="heading-3 dark-text">About me</h3>
-    <div class="quote about dark-text" data-ix="on-scroll-2">How do I spend my free time?<br>Exploring new places, climbing the mountains of this world, and spending time with my family and friends</div>
-  </section>
-  <section id="contact" class="contact-section">
-    <div class="contact-container">
-      <h3 data-ix="on-scroll-1" class="heading-3">Get in Touch</h3>
-      <div class="contact" data-ix="on-scroll-2"><a href="mailto:fpd27@cornell.edu" class="contact-link mail w-inline-block"></a><a href="https://www.linkedin.com/in/fpdaiber/" target="_blank" class="contact-link lin w-inline-block"></a></div>
-    </div>
-  </section>
-  <div class="footer">
-    <div class="footer-3-wrap">
-      <div class="footer-3-links"><a href="#top" class="footer-3-link">Home</a><a href="#professional" class="footer-3-link"> Profile</a><a href="#digiportfolio" class="footer-3-link">Projects</a><a href="#about" class="footer-3-link">About Me</a><a href="legal.html" class="footer-3-link">Legal notice</a></div>
-      <div class="footer-3-line"></div>
-      <div class="footer-3-copywrite">© daiber.me 2019. All rights reserved. Icons by <a href="https://www.freepik.com/home" target="_blank" class="footer-3-link nospace">freepik</a> from <a href="https://www.flaticon.com/" target="_blank" class="footer-3-link nospace">flaticon.</a></div>
-    </div>
-  </div>
-  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="js/webflow.js" type="text/javascript"></script>
-  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+        <p data-aos="fade-up" data-aos-once="true" style="margin-top: 10px;">© 2020 Fabio Daiber. All rights reserved.</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="assets/js/script.min.js?h=57eff9c8949bf161c609d7538587d61f"></script>
 </body>
+
 </html>
